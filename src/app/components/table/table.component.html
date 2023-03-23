@@ -1,0 +1,27 @@
+
+<div class="container">
+  <div class="row mt-4">
+    <div class="col-lg-12">
+      <table class="table shadow table-bordered">
+        <thead>
+          <tr class="table-primary">
+            <th scope="col">ID</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of lista">
+            <th scope="row">{{data.id}}</th>
+            <td>{{data.name}}</td>
+            <td>{{data.username}}</td>
+
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</div>
+
